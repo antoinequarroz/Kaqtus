@@ -1,0 +1,22 @@
+gearbox-hud {
+    position: absolute !important;
+    bottom: 13% !important;
+    right: 5% !important;
+    height: 50% !important;
+    width: 90% !important;
+    z-index: 2147483647 !important;
+    pointer-events: none !important;
+}
+
+gearbox-hud {
+    transition-property: opacity !important;
+    transition-duration: 1s !important;
+}
+
+gearbox-hud {
+    opacity: 0 !important;
+}
+
+gearbox-hud.gbx-recently-active {
+    opacity: 1 !important;
+}
