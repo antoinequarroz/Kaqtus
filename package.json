@@ -1,0 +1,29 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoinequarroz/Kaqtus.git"
+  },
+  "author": "antoinequarroz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antoinequarroz/Kaqtus/issues"
+  },
+  "homepage": "https://github.com/antoinequarroz/Kaqtus#readme",
+  "devDependencies": {
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "gulp-file-include": "^2.3.0"
+  }
+}
